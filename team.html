@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>CS³ Lab</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="apple-touch-icon" sizes="57x57" href="assets/favicon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="assets/favicon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="assets/favicon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="assets/favicon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="assets/favicon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="assets/favicon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="assets/favicon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="assets/favicon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="assets/favicon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="assets/favicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+        <link rel="manifest" href="/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+    </head>
+    <body>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand ps-5" href="#"><img src="assets/cs3-logo.png" alt="CS3 Logo" class="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav pe-5">
+                        <li class="nav-item me-4"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item me-4"><a class="nav-link" href="domain.html">Domain</a></li>
+                        <li class="nav-item me-4"><a class="nav-link" href="project.html">Sponsored Projects</a></li>
+                        <li class="nav-item me-4"><a class="nav-link" href="publication.html">Publications</a></li>
+                        <li class="nav-item me-4"><a class="nav-link active" href="team.html">Members</a></li>
+                        <li class="nav-item me-4"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+  
+        <section class="py-5">
+            <div class="container py-2">
+                <div class="row mt-5 pb-2">
+                    <h1 class="text-center" style="color: #14285f;">The TEAM</h1>
+                    <div class="line"></div>
+                </div>
+                
+                <div class="row align-items-center">
+                    <!-- Left Column: Image -->
+                    <div class="col-md-6 text-center">
+                        <img src="assets/people/saurav.jpg" alt="Dr. Sourav Kanti Addya" class="img-fluid rounded-circle shadow">
+                        <h3 class="mt-3">Dr. Sourav Kanti Addya</h3>
+                        <p class="text-muted mb-0">Assistant Professor</p>
+                        <p class="highlight">National Institute of Technology Karnataka, Surathkal</p>
+                        <div class="social-icons d-flex justify-content-center">
+                            <a href="https://dblp.org/pid/177/2106" target="_blank"><img src="assets/logo/dblp.png" alt="dblp logo"></a>
+                            <a href="https://github.com/souravaddya/" target="_blank"><img src="assets/logo/icon-github.png" alt="github logo"></a>
+                            <a href="https://scholar.google.com/citations?user=4TxJGusAAAAJ&hl=en" target="_blank"><img src="assets/logo/icon-scholar.png" alt="google scholar logo"></a>
+                        </div>
+                    </div>
+            
+                    <!-- Right Column: Text -->
+                    <div class="col-md-6">
+                        <p class="lead">Dr. Addya is an Assistant Professor in the Department of Computer Science and Engineering at the National Institute of Technology Karnataka Surathkal, India,  where he manages the CS^3 Lab since 2019.  Prior to this he was the Institute Post-Doctoral Fellow in Department of Computer Science and Engineering at Indian Institute of Technology, Kharagpur, India. He obtained his PhD degree from National Institute of Technology, Rourkela, India. His primary research interests include developing efficient solutions addressing different aspects for Cloud based systems, Serverless computing, and Fog-Edge.</p>
+                        <p>Email: souravkaddya[AT]nitk[DOT]edu[DOT]in <br/> Website: <a href="http://souravkaddya.in" target="_blank">http://souravkaddya.in</a></p>
+                    </div>
+                </div>
+
+                <div class="row row-cols-1 row-cols-md-3 g-4 py-5">
+                    <div class="col">
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="assets/people/birajdar.jpg" class="img-fluid rounded-start" alt="...">
+                                </div>
+                                <div class="col-md-8 team-col">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Birajdar Priyanka Ashok</h5>
+                                        <p class="card-text">Research Fellow (Ph.D.)</p>
+                                        <p class="card-text"><small class="text-muted">Area of work : Serverless Computing</small></p>
+                                    </div>
+                                    <div class="d-flex justify-content-around">
+                                        <ion-icon name="logo-github"></ion-icon>
+                                        <ion-icon name="logo-linkedin"></ion-icon>
+                                        <ion-icon name="navigate-outline"></ion-icon>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="assets/people/soni.jpeg" class="img-fluid rounded-start" alt="Profile_Priyanka_Soni">
+                                </div>
+                                <div class="col-md-8 team-col">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Priyanka Soni</h5>
+                                        <p class="card-text">Research Fellow (Ph.D.)</p>
+                                        <p class="card-text"><small class="text-muted">Area of work : IoT Offloading</small></p>
+                                    </div>
+                                    <div class="d-flex justify-content-around">
+                                    <ion-icon name="logo-github"></ion-icon>
+                                    <a href="https://www.linkedin.com/in/priyanka-soni-21646b114/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+                                    <ion-icon name="navigate-outline"></ion-icon>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="assets/people/sushma.jpeg" class="img-fluid rounded-start" alt="Profile_Sushma">
+                                </div>
+                                <div class="col-md-8 team-col">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Sushma S A</h5>
+                                        <p class="card-text">Research Fellow (Ph.D.)</p>
+                                        <p class="card-text"><small class="text-muted">Area of work : IoT Offloading</small></p>
+                                    </div>
+                                    <div class="d-flex justify-content-around">
+                                    <ion-icon name="logo-github"></ion-icon>
+                                    <a href="https://www.linkedin.com/in/sushma-sa-467b28216/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+                                    <ion-icon name="navigate-outline"></ion-icon>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="assets/people/preetham.jpeg" class="img-fluid rounded-start" alt="Profile_Preetham">
+                                </div>
+                                <div class="col-md-8 team-col">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Preetham N</h5>
+                                        <p class="card-text">Research Fellow (Ph.D.)</p>
+                                        <p class="card-text"><small class="text-muted">Area of work : Virtual Network Embedding</small></p>
+                                    </div>
+                                    <div class="d-flex justify-content-around">
+                                    <ion-icon name="logo-github"></ion-icon>
+                                    <a href="https://www.linkedin.com/in/preetham-n-gowda-8787b167/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+                                    <ion-icon name="navigate-outline"></ion-icon>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="assets/people/rejeev.jpg" class="img-fluid rounded-start" alt="Profile_Rajeev">
+                                </div>
+                                <div class="col-md-8 team-col">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Rajeev K K</h5>
+                                        <p class="card-text">Research Fellow (Ph.D.)</p>
+                                        <p class="card-text"><small class="text-muted">Area of work : Internet of Vehicles</small></p>
+                                    </div>
+                                    <div class="d-flex justify-content-around">
+                                        <ion-icon name="logo-github"></ion-icon>
+                                        <a href="https://www.linkedin.com/in/rajeev-k-k-492919251/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+                                        <ion-icon name="navigate-outline"></ion-icon>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="assets/people/prasanna.jpeg" class="img-fluid rounded-start" alt="Profile_Prasanna">
+                                </div>
+                                <div class="col-md-8 team-col">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Prasanna Kumar</h5>
+                                        <p class="card-text">M.Tech (Research)</p>
+                                        <p class="card-text"><small class="text-muted">Area of work : IoT Offloading</small></p>
+                                    </div>
+                                    <div class="d-flex justify-content-around">
+                                        <a href="https://github.com/prasanna-kumar-26" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+                                        <a href="https://www.linkedin.com/in/prasanna-kumar26/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+                                        <a href="https://prasanna-kumar-26.github.io/resume/" target="_blank"><ion-icon name="navigate-outline"></ion-icon></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="assets/people/satyaranjan.jpeg" class="img-fluid rounded-start" alt="Profile_Satyaranjan">
+                                </div>
+                                <div class="col-md-8 team-col">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Satyaranjan Patra</h5>
+                                        <p class="card-text">M.Tech</p>
+                                        <p class="card-text"><small class="text-muted">Area of work : Internet of Vehicles</small></p>
+                                    </div>
+                                    <div class="d-flex justify-content-around">
+                                        <a href="https://github.com/satyaranjanpatra2002" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+                                        <a href="https://www.linkedin.com/in/satyaranjan-patra-1294271a8/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+                                        <a href="https://satyaranjanpatra2002.github.io/Portfolio/" target="_blank"><ion-icon name="navigate-outline"></ion-icon></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="assets/people/omkar-mense.jpeg" class="img-fluid rounded-start" alt="Profile_Omkarmense">
+                                </div>
+                                <div class="col-md-8 team-col">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Omkar Manohar Mense</h5>
+                                        <p class="card-text">M.Tech</p>
+                                        <p class="card-text"><small class="text-muted">Area of work : IoT Offloading</small></p>
+                                    </div>
+                                    <div class="d-flex justify-content-around">
+                                        <ion-icon name="logo-github"></ion-icon>
+                                        <a href="https://www.linkedin.com/in/omkar-mense-0b6a79175/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+                                        <ion-icon name="navigate-outline"></ion-icon>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="assets/people/talib.jpeg" class="img-fluid rounded-start" alt="Profile_Talib">
+                                </div>
+                                <div class="col-md-8 team-col">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Md. Talib</h5>
+                                        <p class="card-text">M.Tech</p>
+                                        <p class="card-text"><small class="text-muted">Area of work : Internet of Vehicles</small></p>
+                                    </div>
+                                    <div class="d-flex justify-content-around">
+                                        <a href="https://github.com/talib8335" target="_blank"><ion-icon name="logo-github"></ion-icon></a> 
+                                        <a href="https://www.linkedin.com/in/mohammad-talib-737801291/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+                                        <a href="https://talib8335.github.io" target="_blank"><ion-icon name="navigate-outline"></ion-icon></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="assets/people/anik.jpeg" class="img-fluid rounded-start" alt="Profile_Anik">
+                                </div>
+                                <div class="col-md-8 team-col">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Anik Kanti Biswas</h5>
+                                        <p class="card-text">M.Tech</p>
+                                        <p class="card-text"><small class="text-muted">Area of work : Virtual Network Embedding</small></p>
+                                    </div>
+                                    <div class="d-flex justify-content-around">
+                                        <ion-icon name="logo-github"></ion-icon>
+                                        <a href="https://www.linkedin.com/in/akanik07/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+                                        <ion-icon name="navigate-outline"></ion-icon>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="assets/people/sarveshwaran.jpeg" class="img-fluid rounded-start" alt="Profile_Sarveshwaran">
+                                </div>
+                                <div class="col-md-8 team-col">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Sarveshwaran S</h5>
+                                        <p class="card-text">M.Tech</p>
+                                        <p class="card-text"><small class="text-muted">Area of work : Serverless Computing</small></p>
+                                    </div>
+                                    <div class="d-flex justify-content-around">
+                                        <ion-icon name="logo-github"></ion-icon>
+                                        <a href="https://www.linkedin.com/in/sarveshwaran-s-7b5656149/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+                                        <ion-icon name="navigate-outline"></ion-icon>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="assets/people/abhishek.jpeg" class="img-fluid rounded-start" alt="Profile_Abhishek">
+                                </div>
+                                <div class="col-md-8 team-col">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Abhishek Pandey</h5>
+                                        <p class="card-text">M.Tech</p>
+                                        <p class="card-text"><small class="text-muted">Area of work : IoT Offloading</small></p>
+                                    </div>
+                                    <div class="d-flex justify-content-around">
+                                        <ion-icon name="logo-github"></ion-icon>
+                                        <a href="https://www.linkedin.com/in/abhishek-pandey-b13385231/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+                                        <ion-icon name="navigate-outline"></ion-icon>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="assets/people/dummy-female.jpeg" class="img-fluid rounded-start" alt="Profile_Hardi">
+                                </div>
+                                <div class="col-md-8 team-col">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Hardi Desai</h5>
+                                        <p class="card-text">M.Tech</p>
+                                        <p class="card-text"><small class="text-muted">Area of work : Serverless Computing</small></p>
+                                    </div>
+                                    <div class="d-flex justify-content-around">
+                                        <ion-icon name="logo-github"></ion-icon>
+                                        <a href="https://www.linkedin.com/in/hardidesai210/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+                                        <ion-icon name="navigate-outline"></ion-icon>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="assets/people/sohail.JPG" class="img-fluid rounded-start" alt="...">
+                                </div>
+                                <div class="col-md-8 team-col">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Shaik Sohail</h5>
+                                        <p class="card-text">M.Tech</p>
+                                        <p class="card-text"><small class="text-muted">Area of work : Internet of Vehicles</small></p>
+                                    </div>
+                                    <div class="d-flex justify-content-around">
+                                        <ion-icon name="logo-github"></ion-icon>
+                                        <a href="https://www.linkedin.com/in/shaik-sohail-ba05221a5/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+                                        <ion-icon name="navigate-outline"></ion-icon>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h1 class="text-center" style="color: #14285f;">Our Alumnus</h1>
+                <div class="line"></div>
+                <div class="row row-cols-1 row-cols-md-3 g-4 py-5">
+                    <div class="col">
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="assets/people/keerthan.jpeg" class="img-fluid rounded-start" alt="Profile_Keerthan">
+                                </div>
+                                <div class="col-md-8 team-col">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Keerthan Kumar T G</h5>
+                                        <p class="card-text">Research Fellow (Ph.D.) - 2025</p>
+                                        <p class="card-text"><small class="text-muted">Currently Assistant Professor @ SIT, Tumkur</small></p>
+                                    </div>
+                                    <div class="d-flex justify-content-around">
+                                        <a href="https://github.com/Keerthankumar22" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+                                        <a href="https://www.linkedin.com/in/dr-keerthan-kumar-t-g-2b553788/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+                                        <a href="https://keerthankumar22.github.io/KeerthanKumar/" target="_blank"><ion-icon name="navigate-outline"></ion-icon></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="assets/people/kalash.jpeg" class="img-fluid rounded-start" alt="Profile_Kalash">
+                                </div>
+                                <div class="col-md-8 team-col">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Kalash</h5>
+                                        <p class="card-text">M.Tech - 2024</p>
+                                        <p class="card-text"><small class="text-muted">Currently PGET @ TML- Corporate IT</small></p>
+                                    </div>
+                                    <div class="d-flex justify-content-around">
+                                        <ion-icon name="logo-github"></ion-icon>
+                                        <a href="https://www.linkedin.com/in/kalash-1a54791a7/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+                                        <ion-icon name="navigate-outline"></ion-icon>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="assets/people/omkar-chand.jpeg" class="img-fluid rounded-start" alt="Profile_Omkarchand">
+                                </div>
+                                <div class="col-md-8 team-col">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Omkar Chand Deshlahre</h5>
+                                        <p class="card-text">M.Tech - 2024</p>
+                                        <p class="card-text"><small class="text-muted">Currently Software Engineer @ Infobell IT</small></p>
+                                    </div>
+                                    <div class="d-flex justify-content-around">
+                                        <ion-icon name="logo-github"></ion-icon>
+                                        <a href="https://www.linkedin.com/in/omkar96/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+                                        <ion-icon name="navigate-outline"></ion-icon>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="assets/people/chandrashekhar.jpg" class="img-fluid rounded-start" alt="Profile_Chandrashekhar">
+                                </div>
+                                <div class="col-md-8 team-col">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Chandra Shekhar Patel</h5>
+                                        <p class="card-text">M.Tech - 2024</p>
+                                        <p class="card-text"><small class="text-muted">Area of work : Virtual Network Embedding</small></p>
+                                    </div>
+                                    <div class="d-flex justify-content-around">
+                                        <ion-icon name="logo-github"></ion-icon>
+                                        <ion-icon name="logo-linkedin"></ion-icon>
+                                        <ion-icon name="navigate-outline"></ion-icon>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="assets/people/madhunisha.jpeg" class="img-fluid rounded-start" alt="Profile_Madhunisha">
+                                </div>
+                                <div class="col-md-8 team-col">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Madhunisha E</h5>
+                                        <p class="card-text">M.Tech - 2024</p>
+                                        <p class="card-text"><small class="text-muted">Currently Member Research Staff (MRS) @ BEL-CRL</small></p>
+                                    </div>
+                                    <div class="d-flex justify-content-around">
+                                        <ion-icon name="logo-github"></ion-icon>
+                                        <a href="https://www.linkedin.com/in/madhunisha-eswaramoorthy-80863714b/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+                                        <ion-icon name="navigate-outline"></ion-icon>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="assets/people/jui.jpeg" class="img-fluid rounded-start" alt="Profile_Jui">
+                                </div>
+                                <div class="col-md-8 team-col">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Jui Viajy Morey</h5>
+                                        <p class="card-text">M.Tech (Research) - 2023 </p>
+                                        <p class="card-text"><small class="text-muted">Currently Senior Engineer @ Western Digital</small></p>
+                                    </div>
+                                    <div class="d-flex justify-content-around">
+                                        <ion-icon name="logo-github"></ion-icon>
+                                        <a href="https://www.linkedin.com/in/jui-morey-14a151159/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+                                        <ion-icon name="navigate-outline"></ion-icon>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="assets/people/rounak.jpeg" class="img-fluid rounded-start" alt="Profile_Rounak">
+                                </div>
+                                <div class="col-md-8 team-col">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Rounak Saha</h5>
+                                        <p class="card-text">M.Tech (Research) - 2023</p>
+                                        <p class="card-text"><small class="text-muted">Currently AI Engineer @IDEMIA</small></p>
+                                    </div>
+                                    <div class="d-flex justify-content-around">
+                                        <ion-icon name="logo-github"></ion-icon>
+                                        <a href="https://www.linkedin.com/in/rounak-saha-8b2963133/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+                                        <a href="https://scholar.google.com/citations?hl=en&view_op=list_works&gmla=AJsN-F5-_ZiOCKzUFgH1b9IlOCX0P6jLe5FHlQpsfBdGJUGRoOmw5ntrUvhLKMEePmsmuyVRSWyCnEQAggNiPchWLm6O9ubuTA&user=g-5SjTIAAAAJ" target="_blank"><ion-icon name="navigate-outline"></ion-icon></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="assets/people/ankit.jpeg" class="img-fluid rounded-start" alt="Profile_Ankit">
+                                </div>
+                                <div class="col-md-8 team-col">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Ankit Srivastava</h5>
+                                        <p class="card-text">M.Tech - 2023</p>
+                                        <p class="card-text"><small class="text-muted">Currently Application Developer @ Citi India</small></p>
+                                    </div>
+                                    <div class="d-flex justify-content-around">
+                                        <ion-icon name="logo-github"></ion-icon>
+                                        <a href="https://www.linkedin.com/in/ankit-srivastava-97zddb/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+                                        <ion-icon name="navigate-outline"></ion-icon>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="assets/people/manohar.jpeg" class="img-fluid rounded-start" alt="Profile_Manohar">
+                                </div>
+                                <div class="col-md-8 team-col">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Manohar Anand</h5>
+                                        <p class="card-text">M.Tech - 2023</p>
+                                        <p class="card-text"><small class="text-muted">Currently Software Engineer 2 @ Dell</small></p>
+                                    </div>
+                                    <div class="d-flex justify-content-around">
+                                        <ion-icon name="logo-github"></ion-icon>
+                                        <a href="https://www.linkedin.com/in/manohar-anand-a063a4158/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+                                        <ion-icon name="navigate-outline"></ion-icon>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="assets/people/aastik.jpeg" class="img-fluid rounded-start" alt="Profile_Aastik">
+                                </div>
+                                <div class="col-md-8 team-col">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Aastik Verma</h5>
+                                        <p class="card-text">M.Tech - 2023</p>
+                                        <p class="card-text"><small class="text-muted">Currently MTS @ Oracle</small></p>
+                                    </div>
+                                    <div class="d-flex justify-content-around">
+                                        <ion-icon name="logo-github"></ion-icon>
+                                        <a href="https://www.linkedin.com/in/aastik-verma-153791165/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+                                        <ion-icon name="navigate-outline"></ion-icon>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="assets/people/sachin.jpeg" class="img-fluid rounded-start" alt="Profile_Sachin">
+                                </div>
+                                <div class="col-md-8 team-col">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Sachin Santoki</h5>
+                                        <p class="card-text">M.Tech - 2023</p>
+                                        <p class="card-text"><small class="text-muted">Currently ProServe @ Amazon Web Services</small></p>
+                                    </div>
+                                    <div class="d-flex justify-content-around">
+                                        <ion-icon name="logo-github"></ion-icon>
+                                        <a href="https://www.linkedin.com/in/sachin-santoki-7a724318b/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+                                        <ion-icon name="navigate-outline"></ion-icon>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="assets/people/ajay.jpeg" class="img-fluid rounded-start" alt="Profile_Ajay">
+                                </div>
+                                <div class="col-md-8 team-col">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Ajay Gajanan Hajare</h5>
+                                        <p class="card-text">M.Tech - 2023</p>
+                                        <p class="card-text"><small class="text-muted">Currently Applications Developer 1 @Oracle (OFSS)</small></p>
+                                    </div>
+                                    <div class="d-flex justify-content-around">
+                                        <a href="https://github.com/AjayHajare" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+                                        <a href="https://www.linkedin.com/in/ajay-hajare/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+                                        <a href="https://ajayhajare.github.io" target="_blank"><ion-icon name="navigate-outline"></ion-icon></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="assets/people/milind.jpeg" class="img-fluid rounded-start" alt="Profile_Milind">
+                                </div>
+                                <div class="col-md-8 team-col">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Milind Chauhan</h5>
+                                        <p class="card-text">M.Tech - 2023</p>
+                                        <p class="card-text"><small class="text-muted">Currently SWE @ Oracle</small></p>
+                                    </div>
+                                    <div class="d-flex justify-content-around">
+                                        <ion-icon name="logo-github"></ion-icon>
+                                        <a href="https://www.linkedin.com/in/milindchauhan/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+                                        <ion-icon name="navigate-outline"></ion-icon>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer-section">
+            <div class="waves">
+              <div class="wave" id="wave1"></div>
+              <div class="wave" id="wave2"></div>
+              <div class="wave" id="wave3"></div>
+              <div class="wave" id="wave4"></div>
+            </div>
+            <div class="container">
+                <div class="row-footer">
+                <div class="col-footer">
+                    <ul class="list-unstyled">
+                    <li>
+                        <div class="logo-footer">
+                        <a href="#">
+                            <img src="assets/lab-logo.png" alt="CS3 logo"  style="object-fit: contain; max-width: 40%; height: auto;" />
+        
+                        </a>  
+                        </div>
+                    </li>
+                    </ul>
+                </div>
+        
+                <div class="col-footer">
+                    <h3>Contact</h3>
+                    <ul class="list-unstyled">
+                    <li><h5>Dr. Sourav Kanti Addya</h5></li>
+                    <li><ion-icon name="compass-outline"></ion-icon> Room 601, Second Floor,<br/>
+                            Dept. of CSE, NITK, Surathkal - 575025</li>
+                    <li><ion-icon name="call-outline"></ion-icon> +91-824-247-3414</li>
+                    <li><ion-icon name="send-outline"></ion-icon> souravkaddya[AT]nitk[DOT]edu[DOT]in</li>
+                    </ul>
+                </div>
+        
+                <div class="col-footer">
+                    <ul class="list-unstyled">
+                    <li>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.3603207489427!2d74.78881787540209!3d13.012711413974953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba3520e26d063d1%3A0xf3ffcd7ac259e51e!2sComputer%20Science%20and%20Engineering%20Department%20NITK!5e0!3m2!1sen!2sin!4v1743834166207!5m2!1sen!2sin" 
+                        width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+            <p>&copy; 2025 || CS<sup>3</sup> All Rights Reserved.</p>
+        </footer>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>

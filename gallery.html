@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CS³ Lab</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="assets/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand ps-5" href="#">
+          <img src="assets/cs3-logo.png" alt="CS3 Logo" class="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav pe-5">
+            <li class="nav-item me-4"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item me-4"><a class="nav-link" href="domain.html">Domain</a></li>
+            <li class="nav-item me-4"><a class="nav-link" href="project.html">Sponsored Projects</a></li>
+            <li class="nav-item me-4"><a class="nav-link" href="publication.html">Publications</a></li>
+            <li class="nav-item me-4"><a class="nav-link" href="team.html">Members</a></li>
+            <li class="nav-item me-4"><a class="nav-link active" href="gallery.html">Gallery</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="py-5 mb-5">
+      <div class="container py-3">
+        <div class="row mt-5 pb-2">
+          <h1 class="text-center" style="color: #14285f;">Milestone Moments</h1>
+          <div class="line"></div>
+        </div>
+        <div class="timeline">
+          <!-- Timeline Item 1 -->
+          <div class="timeline-event left">
+            <div class="timeline-connector"></div>
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-date">March 12, 2025</div>
+              <p>Successfully defence of Ph.D. thesis by Keerthan Kumar</p>
+              <div class="d-flex flex-row flex-wrap gap-3">
+                <img src="assets/gallery/keerthan-defence/1.jpg" class="small-img" alt="Keerthan defence image"
+                     data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openImage(this)">
+                <img src="assets/gallery/keerthan-defence/2.jpg" class="small-img" alt="Keerthan defence image"
+                     data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openImage(this)">
+              </div>              
+            </div>
+          </div>
+    
+          <!-- Timeline Item 2 -->
+          <div class="timeline-event right">
+            <div class="timeline-connector"></div>
+            <div class="timeline-dot"></div> 
+            <div class="timeline-content">
+              <div class="timeline-date">January 08, 2025</div>
+              <p>Best Poster Award in 17th COMSNETS 2025</p>
+              <div class="d-flex flex-row flex-wrap gap-3">
+                  <img src="assets/gallery/comsnet-2025/1.jpeg" class="small-img" alt="Comsnet-2025 Award" 
+                  data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openImage(this)">
+                  <img src="assets/gallery/comsnet-2025/2.jpeg" class="small-img" alt="comsnet-2025 Award" 
+                  data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openImage(this)">
+                  <img src="assets/gallery/comsnet-2025/3.jpg" class="small-img" alt="comsnet-2025 Award" 
+                  data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openImage(this)">
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-event left">
+            <div class="timeline-connector"></div>
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-date">January 7, 2025</div>
+              <p>Our Students presented there work at 17th COMSNETS 2025</p>
+              <div class="d-flex flex-row flex-wrap gap-3">
+                <img src="assets/gallery/comsnets-2025/1.jpg" class="small-img" alt="Comsnet-2025"
+                     data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openImage(this)">
+                <img src="assets/gallery/comsnets-2025/2.jpg" class="small-img" alt="Comsnet-2025"
+                     data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openImage(this)">
+                <img src="assets/gallery/comsnets-2025/3.jpg" class="small-img" alt="Comsnet-2025"
+                     data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openImage(this)">
+              </div>              
+            </div>
+          </div>
+
+          <div class="timeline-event right">
+            <div class="timeline-connector"></div>
+            <div class="timeline-dot"></div> 
+            <div class="timeline-content">
+              <div class="timeline-date">January 04, 2025</div>
+              <p>Our Students presented there work at 26th ICDCN 2025</p>
+              <div class="d-flex flex-row flex-wrap gap-3">
+                  <img src="assets/gallery/icdcn-2025/1.jpeg" class="small-img" alt="ICDCN-2025" 
+                  data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openImage(this)">
+                  <img src="assets/gallery/icdcn-2025/2.jpeg" class="small-img" alt="ICDCN-2025" 
+                  data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openImage(this)">
+                  <img src="assets/gallery/icdcn-2025/3.jpeg" class="small-img" alt="ICDCN-2025" 
+                  data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openImage(this)">
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-event left">
+            <div class="timeline-connector"></div>
+            <div class="timeline-dot"></div> 
+            <div class="timeline-content">
+              <div class="timeline-date">November 23, 2024</div>
+              <p>Our students of 24' Batch attended convocation and Kalash got institute gold medal</p>
+              <div class="d-flex flex-row flex-wrap gap-3">
+                  <img src="assets/gallery/convocation-2024/1.jpeg" class="small-img" alt="convocation" 
+                  data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openImage(this)">
+                  <img src="assets/gallery/convocation-2024/2.jpeg" class="small-img" alt="convocation" 
+                  data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openImage(this)">
+                  <img src="assets/gallery/convocation-2024/3.jpeg" class="small-img" alt="convocation" 
+                  data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openImage(this)">
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-event right">
+            <div class="timeline-connector"></div>
+            <div class="timeline-dot"></div> 
+            <div class="timeline-content">
+              <div class="timeline-date">March 11, 2024</div>
+              <p>Dr. Addya attended 22nd Percom 2024 and also presented our work.</p>
+              <div class="d-flex flex-row flex-wrap gap-3">
+                  <!-- <img src="assets/gallery/" class="small-img" alt="" 
+                  data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openImage(this)">
+                  <img src="assets/gallery/" class="small-img" alt="" 
+                  data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openImage(this)"> -->
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Custom Fullscreen Image Viewer -->
+    <div id="fullscreenViewer" class="fullscreen-viewer" onclick="closeFullscreen()">
+      <span class="close-btn" onclick="closeFullscreen(event)">&times;</span>
+      <img id="fullscreenImage" src="" alt="Fullscreen Preview">
+      <button class="nav-btn prev" onclick="navigateImage(-1, event)">&#10094;</button>
+      <button class="nav-btn next" onclick="navigateImage(1, event)">&#10095;</button>
+    </div>
+
+    <footer class="footer-section">
+      <div class="waves">
+        <div class="wave" id="wave1"></div>
+        <div class="wave" id="wave2"></div>
+        <div class="wave" id="wave3"></div>
+        <div class="wave" id="wave4"></div>
+      </div>
+      <div class="container">
+          <div class="row-footer">
+          <div class="col-footer">
+              <ul class="list-unstyled">
+              <li>
+                  <div class="logo-footer">
+                  <a href="#">
+                      <img src="assets/lab-logo.png" alt="CS3 logo"  style="object-fit: contain; max-width: 40%; height: auto;" />
+  
+                  </a>  
+                  </div>
+              </li>
+              </ul>
+          </div>
+  
+          <div class="col-footer">
+              <h3>Contact</h3>
+              <ul class="list-unstyled">
+              <li><h5>Dr. Sourav Kanti Addya</h5></li>
+              <li><ion-icon name="compass-outline"></ion-icon> Room 601, Second Floor,<br/>
+                      Dept. of CSE, NITK, Surathkal - 575025</li>
+              <li><ion-icon name="call-outline"></ion-icon> +91-824-247-3414</li>
+              <li><ion-icon name="send-outline"></ion-icon> souravkaddya[AT]nitk[DOT]edu[DOT]in</li>
+              </ul>
+          </div>
+  
+          <div class="col-footer">
+              <ul class="list-unstyled">
+              <li>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.3603207489427!2d74.78881787540209!3d13.012711413974953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba3520e26d063d1%3A0xf3ffcd7ac259e51e!2sComputer%20Science%20and%20Engineering%20Department%20NITK!5e0!3m2!1sen!2sin!4v1743834166207!5m2!1sen!2sin" 
+                  width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </li>
+              </ul>
+          </div>
+          </div>
+      </div>
+      <p>&copy; 2025 || CS<sup>3</sup> All Rights Reserved.</p>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        $(".nav li").on("click", function(){
+            $(".nav li").removeClass("active");
+            $(this).addClass("active");
+        });
+    </script>
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script>
+      let currentImages = [];
+      let currentIndex = 0;
+
+      function openImage(imgElement) {
+        // Get all images from the same timeline-item
+        const timelineItem = imgElement.closest('.timeline-event');
+        const images = Array.from(timelineItem.querySelectorAll('img'));
+
+        currentImages = images;
+        currentIndex = images.indexOf(imgElement);
+
+        showFullscreenImage(currentImages[currentIndex]);
+      }
+
+      function showFullscreenImage(image) {
+        const viewer = document.getElementById('fullscreenViewer');
+        const fullscreenImg = document.getElementById('fullscreenImage');
+
+        fullscreenImg.src = image.src;
+        fullscreenImg.alt = image.alt;
+
+        viewer.style.display = 'flex';
+      }
+
+      function closeFullscreen(event) {
+        if (event) event.stopPropagation(); // prevent bubbling up
+        document.getElementById('fullscreenViewer').style.display = 'none';
+      }
+
+      function navigateImage(direction, event) {
+        event.stopPropagation(); // prevent closing the viewer when clicking nav
+        currentIndex += direction;
+        // Wrap around
+        if (currentIndex < 0) currentIndex = currentImages.length - 1;
+        if (currentIndex >= currentImages.length) currentIndex = 0;
+
+        showFullscreenImage(currentImages[currentIndex]);
+      }
+    </script>
+  </body>
+</html>

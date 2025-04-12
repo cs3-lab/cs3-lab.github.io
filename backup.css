@@ -1,0 +1,59 @@
+/* Footer content container */
+.footer-content {
+    display: grid;
+    width: 100%;
+    /*grid-template-columns: 5fr 5fr; /* Defines the 3:7 ratio */
+    /*gap: 20px; /* Optional: Add some space between the columns */
+    /*padding: 20px;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    gap: 20px; /* Add space between contact and map 
+    flex-wrap: wrap; /* Allows the content to wrap on smaller screens */
+}
+
+/* Contact Section */
+.contact{
+    float: left;
+    padding: 10px;
+}
+.details {
+    margin-left: 80px;
+}
+
+.details h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.details p {
+    font-size: 18px;
+    text-align: left;
+}
+
+/* Map Section */
+.map {
+    width: 70%;
+}
+
+.map iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.contact::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+footer p{
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}

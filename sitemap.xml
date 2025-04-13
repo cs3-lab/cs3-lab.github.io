@@ -7,9 +7,6 @@
     <loc>https://cs3-lab.github.io/domain.html</loc>
   </url>
   <url>
-    <loc>https://cs3-lab.github.io/gallery.html</loc>
-  </url>
-  <url>
     <loc>https://cs3-lab.github.io/project.html</loc>
   </url>
   <url>
@@ -19,6 +16,6 @@
     <loc>https://cs3-lab.github.io/team.html</loc>
   </url>
   <url>
-    <loc>https://cs3-lab.github.io/test.html</loc>
+    <loc>https://cs3-lab.github.io/gallery.html</loc>
   </url>
 </urlset>

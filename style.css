@@ -394,6 +394,12 @@ h1, h2, h3, h4, h5, h6{
     background-position:top left;
 }
 
+.slider li:nth-child(4){
+  background:linear-gradient(to right, rgba(1,1,1,1) 10%, rgba(1,1,1,0.8) 51%, rgba(1,1,1,0.2) 100%), url("assets/hero-section/meeting\ room.webp");
+  background-size: cover;
+  background-position:top left;
+}
+
 .slider article{
     width:60%;
     margin-top:4rem;

@@ -388,7 +388,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .slider li:nth-child(1){
-    background:linear-gradient(to right, rgba(1,1,1,1) 10%, rgba(1,1,1,0.8) 51%, rgba(1,1,1,0.2) 100%), url("assets/hero-section/nitk.webp");
+  background: linear-gradient(to right, rgba(1,1,1,0.9) 10%, rgba(1,1,1,0.2) 51%, rgba(1,1,1,0.05) 100%), url("assets/hero-section/nitk.webp");
     background-size: cover;
     background-position:top left;
 }
@@ -423,19 +423,19 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .slider li:nth-child(2){
-    background:linear-gradient(to right, rgba(1,1,1,1) 10%, rgba(1,1,1,0.8) 51%, rgba(1,1,1,0.2) 100%), url("assets/hero-section/cse.webp");
+    background: linear-gradient(to right, rgba(1,1,1,0.4) 10%, rgba(1,1,1,0.2) 51%, rgba(1,1,1,0.05) 100%), url("assets/hero-section/cse.webp");
     background-size: cover;
     background-position:top left;
 }
 
 .slider li:nth-child(3){
-    background:linear-gradient(to right, rgba(1,1,1,1) 10%, rgba(1,1,1,0.8) 51%, rgba(1,1,1,0.2) 100%), url("assets/hero-section/lab.webp");
+    background: linear-gradient(to right, rgba(1,1,1,0.9) 10%, rgba(1,1,1,0.2) 51%, rgba(1,1,1,0.05) 100%), url("assets/hero-section/lab.webp");
     background-size: cover;
     background-position:top left;
 }
 
 .slider li:nth-child(4){
-  background:linear-gradient(to right, rgba(1,1,1,1) 10%, rgba(1,1,1,0.8) 51%, rgba(1,1,1,0.2) 100%), url("assets/hero-section/meeting\ room.webp");
+  background: linear-gradient(to right, rgba(1,1,1,0.9) 10%, rgba(1,1,1,0.2) 51%, rgba(1,1,1,0.05) 100%), url("assets/hero-section/meeting\ room.webp");
   background-size: cover;
   background-position:top left;
 }

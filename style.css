@@ -734,6 +734,35 @@ footer .wave#wave4 {
   margin: auto;
 }
 
+.org-tabs {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0;
+  border-bottom: 2px solid #e5e7eb;
+  margin-bottom: 2.5rem;
+}
+.org-tab-btn {
+  padding: 0.75rem 1.5rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #6b7280;
+  background: none;
+  border: none;
+  border-bottom: 3px solid transparent;
+  margin-bottom: -2px;
+  cursor: pointer;
+  transition: color 0.2s, border-color 0.2s;
+  white-space: nowrap;
+}
+.org-tab-btn:hover {
+  color: #1e40af;
+}
+.org-tab-btn.active {
+  color: #1e40af;
+  border-bottom-color: #1e40af;
+}
+
 .img-fluid{
   height: 300px;
   width: 350px !important;
